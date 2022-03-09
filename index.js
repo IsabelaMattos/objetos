@@ -6,10 +6,12 @@ class Retangulo{
   calcularArea(){
     return this.altura * this.largura
   }
-}
-var quadrado = new Retangulo(10, 10);
-let retangulo = new Retangulo(30, 60);
-  area(){
+   area(){
     return this.calcularArea();
   }
 }
+
+var quadrado = new Retangulo(10, 10);
+let retangulo = new Retangulo(30, 60);
+let retangulo2 = new Retangulo(30, 60);
+console.log(quadrado.area())
